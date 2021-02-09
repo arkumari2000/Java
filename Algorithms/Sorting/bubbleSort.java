@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 class bubbleSort{
+    // Method to sort array in ascending order
     void increaseBubbleSort(int[] arr, int n){
         for(int i=0;i<n-1;i++){
             for(int j=0;j<n-i-1;j++){
@@ -13,6 +14,7 @@ class bubbleSort{
             }
         }
     }
+    // Method to sort arrray in descending order
     void decreaseBubbleSort(int[] arr, int n){
         for(int i=0;i<n-1;i++){
             for(int j=0;j<n-i-1;j++){
